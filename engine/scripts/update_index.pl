@@ -45,7 +45,7 @@ sub readDocs {
   closedir(DIR);
 
   foreach my $file (sort @list){
-    next if( $file =~ /^\.{1,2}$/ );
+    next if( $file =~ /^\..*$/ );
 
     if( -d "$dir/$file" ){
       push(@ret, readDocs("$dir/$file"));
