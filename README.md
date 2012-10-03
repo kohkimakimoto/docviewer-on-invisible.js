@@ -1,7 +1,7 @@
 # DocViewer on invisible.js
   markdown記法で記述したドキュメントをローカルマシンで簡単に見るためのソフトウェアです。
   メインのエンジンは[invisible.js](http://www.chrome-life.com/javascript/554/)を使用しています。
-  invisible.jsの描画にTwitter Bootstrapを組み合わせています。
+  invisible.jsの描画にTwitter Bootstrapのレイアウトを組み合わせています。
   
 ## 使い方
   一式ダウンロードしてindex.htmlをブラウザで表示してください。
